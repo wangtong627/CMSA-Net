@@ -20,7 +20,7 @@ Video Polyp Segmentation (VPS) is a challenging task due to the varying size of 
 
 ### Qualitative Results
 <p align="center">
-    <img src="https://github.com/wangtong627/SEPNet/blob/main/qualitative_results.png" alt="Qualitative Results" width="90%">
+    <img src="https://github.com/wangtong627/CMSA-Net/blob/main/prediction/main_prediction.png" alt="Qualitative Results" width="90%">
 </p>
 <p align="center"><em>Figure: Qualitative comparison of CMSA-Net against other SOTA methods.</em></p>
 
@@ -30,7 +30,7 @@ Video Polyp Segmentation (VPS) is a challenging task due to the varying size of 
 We evaluate our method on the **SUN-SEG** benchmark (Easy and Hard subsets). Our model (CMSA-Net) achieves the best performance across multiple metrics.
 
 #### 1. SUN-SEG-Easy (Seen & Unseen)
-| Method | Backbone | $S_\alpha\uparrow$ | $E_{\phi}^{mn}\uparrow$ | $F_\beta^w\uparrow$ | Dice$\uparrow$ | IoU$\uparrow$ | MAE$\downarrow$ | $S_\alpha\uparrow$ (U) | Dice$\uparrow$ (U) |
+| Method | Backbone | $S_\alpha\uparrow$ | $E_{\phi}^{mn}\uparrow$ | $F_\beta^w\uparrow$ | Dice $\uparrow$ | IoU$\uparrow$ | MAE$\downarrow$ | $S_\alpha\uparrow$ (U) | Dice$\uparrow$ (U) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | SEPNet (TCSVT'24) | PVTv2-B2 | 93.1 | 96.2 | 88.3 | 89.6 | 83.4 | 1.7 | 82.9 | 75.1 |
 | STDDNet (ICCV'25) | PVTv2-B2 | 94.1 | 96.9 | 90.5 | 91.5 | 86.1 | 1.4 | 86.0 | 80.1 |
