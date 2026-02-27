@@ -41,7 +41,7 @@ Extensive experiments on the **SUN-SEG dataset** demonstrate that CMSA-Net achie
 ## 🏗️ Framework Overview
 
 <p align="center">
-    <img src="[https://github.com/wangtong627/CMSA-Net/blob/main/prediction/main_prediction.png](https://github.com/wangtong627/CMSA-Net/blob/main/framework/cmsa_framework.png)" alt="Framework" width="90%">
+    <img src="https://github.com/wangtong627/CMSA-Net/blob/main/framework/cmsa_framework.png" alt="Framework" width="90%">
 </p>
 <p align="center"><em>Figure: Framework Overview.</em></p>
 
