@@ -3,7 +3,7 @@
 <h3>Causal Multi-scale Aggregation with Adaptive Multi-source Reference for Video Polyp Segmentation</h3>
 <br>
 
-**Tong Wang¹², Yaolei Qi¹, Siwen Wang², Imran Razzak², Guanyu Yang¹✉**
+Tong Wang¹², Yaolei Qi¹, Siwen Wang², Imran Razzak², Guanyu Yang¹✉, Yutong Xie²✉
 
 ¹ Southeast University, China  
 ² Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), UAE  
@@ -37,16 +37,13 @@ Furthermore, we design a **Dynamic Multi-source Reference (DMR)** strategy that 
 
 Extensive experiments on the **SUN-SEG dataset** demonstrate that CMSA-Net achieves state-of-the-art performance, offering a favorable balance between segmentation accuracy and real-time clinical applicability.
 
----
 
 ## 🏗️ Framework Overview
 
 <p align="center">
-    <img src="https://github.com/wangtong627/CMSA-Net/blob/main/prediction/main_prediction.png" alt="Qualitative Results" width="90%">
+    <img src="[https://github.com/wangtong627/CMSA-Net/blob/main/prediction/main_prediction.png](https://github.com/wangtong627/CMSA-Net/blob/main/framework/cmsa_framework.png)" alt="Framework" width="90%">
 </p>
 <p align="center"><em>Figure: Framework Overview.</em></p>
-
----
 
 
 ## 📊 Experimental Results
@@ -57,7 +54,6 @@ Extensive experiments on the **SUN-SEG dataset** demonstrate that CMSA-Net achie
 </p>
 <p align="center"><em>Figure: Qualitative comparison of CMSA-Net against other SOTA methods.</em></p>
 
----
 
 ### Quantitative Comparison on SUN-SEG Dataset
 Complete quantitative results on the **SUN-SEG** benchmark. **Bold** indicates the best performance.
@@ -144,7 +140,6 @@ Complete quantitative results on the **SUN-SEG** benchmark. **Bold** indicates t
 
 <small>*All scores are in percentage (%).*</small>
 
----
 
 ## 📂 Download Prediction Results
 As the paper is currently under review, the source code is not yet publicly available. However, we provide the full prediction maps for comparison and evaluation purposes:
