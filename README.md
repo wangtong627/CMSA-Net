@@ -3,7 +3,17 @@
 <h3>Causal Multi-scale Aggregation with Adaptive Multi-source Reference for Video Polyp Segmentation</h3>
 <br>
 
+**Tong Wang¹², Yaolei Qi¹, Siwen Wang², Imran Razzak², Guanyu Yang¹✉**
+
+¹ Southeast University, China  
+² Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), UAE  
+
+✉ Corresponding Author
+
+<br>
+
 <!-- [![Paper](https://img.shields.io/badge/Paper-Under_Review-gray)](#)  -->
+[![arXiv](https://img.shields.io/badge/arXiv-2602.22821-b31b1b.svg)](https://arxiv.org/abs/2602.22821)
 [![Prediction Maps](https://img.shields.io/badge/Predictions-PVT--V2--B2-purple)](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgBMgKhbcJIfQqzZ5sC_TgKZAYXvAMg1GHbRVQeA21RtrKM?e=y6GGej)
 [![Prediction Maps](https://img.shields.io/badge/Predictions-Res2Net50-orange)](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgCAy5pL4kWkTqqk9qUYMNR4Ac02RQX920el46GxIgxL33c?e=cJEbRd)
 
@@ -15,6 +25,29 @@
 
 <!-- ## 📌 Abstract
 Video Polyp Segmentation (VPS) is a challenging task due to the varying size of polyps, motion blur, and the similarity between polyps and surrounding tissues. We propose **CMSA-Net**, a Contextual Multi-Scale Aggregation Network designed to capture robust spatio-temporal representations. By leveraging multi-scale feature fusion and contextual calibration, CMSA-Net achieves state-of-the-art performance on major benchmarks. -->
+
+
+## 📌 Abstract
+
+**Video polyp segmentation (VPS)** is an important task in computer-aided colonoscopy, as it helps doctors accurately locate and track polyps during examinations. However, VPS remains challenging because polyps often look similar to surrounding mucosa, leading to weak semantic discrimination. In addition, large changes in polyp position and scale across video frames make stable and accurate segmentation difficult.  
+
+To address these challenges, we propose a robust VPS framework named **CMSA-Net**. The proposed network introduces a **Causal Multi-scale Aggregation (CMA)** module to effectively gather semantic information from multiple historical frames at different scales. By using *causal attention*, CMA ensures that temporal feature propagation follows strict time order, which helps reduce noise and improve feature reliability.  
+
+Furthermore, we design a **Dynamic Multi-source Reference (DMR)** strategy that adaptively selects informative and reliable reference frames based on semantic separability and prediction confidence. This strategy provides strong multi-frame guidance while keeping the model efficient for real-time inference.  
+
+Extensive experiments on the **SUN-SEG dataset** demonstrate that CMSA-Net achieves state-of-the-art performance, offering a favorable balance between segmentation accuracy and real-time clinical applicability.
+
+---
+
+## 🏗️ Framework Overview
+
+<p align="center">
+    <img src="https://github.com/wangtong627/CMSA-Net/blob/main/prediction/main_prediction.png" alt="Qualitative Results" width="90%">
+</p>
+<p align="center"><em>Figure: Framework Overview.</em></p>
+
+---
+
 
 ## 📊 Experimental Results
 
@@ -118,3 +151,18 @@ As the paper is currently under review, the source code is not yet publicly avai
 
 * **PVT-V2-B2 Predictions:** [Download via OneDrive](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgBMgKhbcJIfQqzZ5sC_TgKZAYXvAMg1GHbRVQeA21RtrKM?e=y6GGej)
 * **Res2Net50 Predictions:** [Download via OneDrive](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgCAy5pL4kWkTqqk9qUYMNR4Ac02RQX920el46GxIgxL33c?e=cJEbRd)
+
+
+---
+
+## 📖 Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@article{wang2026cmsanet,
+  title={CMSA-Net: Causal Multi-scale Aggregation with Adaptive Multi-source Reference for Video Polyp Segmentation},
+  author={Tong Wang and Yaolei Qi and Siwen Wang and Imran Razzak and Guanyu Yang and Yutong Xie},
+  journal={arXiv preprint arXiv:2602.22821},
+  year={2026}
+}
