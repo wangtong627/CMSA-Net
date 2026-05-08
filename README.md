@@ -14,14 +14,15 @@ Tong Wang¹², Yaolei Qi¹, Siwen Wang², Imran Razzak², Guanyu Yang¹✉, Yuto
 
 <!-- [![Paper](https://img.shields.io/badge/Paper-Under_Review-gray)](#)  -->
 [![arXiv](https://img.shields.io/badge/arXiv-2602.22821-b31b1b.svg)](https://arxiv.org/abs/2602.22821)
-[![Prediction Maps](https://img.shields.io/badge/Predictions-PVT--V2--B2-purple)](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgBMgKhbcJIfQqzZ5sC_TgKZAYXvAMg1GHbRVQeA21RtrKM?e=y6GGej)
-[![Prediction Maps](https://img.shields.io/badge/Predictions-Res2Net50-orange)](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgCAy5pL4kWkTqqk9qUYMNR4Ac02RQX920el46GxIgxL33c?e=cJEbRd)
+[![Prediction Maps](https://img.shields.io/badge/Predictions-PVT--V2--B2-purple)](#-download-resources)
+[![Prediction Maps](https://img.shields.io/badge/Predictions-Res2Net50-orange)](#-download-resources)
 
 </div>
 
 ## 📢 News
-- **[Feb, 2026]** CMSA-Net is currently under review. 
+- **[May, 2026]** CMSA-Net has been accepted as a **MICCAI 2026 Early Accept** paper.
 - **[Feb, 2026]** Released prediction results for both **PVT-V2-B2** and **Res2Net50** backbones.
+- **[Feb, 2026]** CMSA-Net is available on arXiv.
 
 <!-- ## 📌 Abstract
 Video Polyp Segmentation (VPS) is a challenging task due to the varying size of polyps, motion blur, and the similarity between polyps and surrounding tissues. We propose **CMSA-Net**, a Contextual Multi-Scale Aggregation Network designed to capture robust spatio-temporal representations. By leveraging multi-scale feature fusion and contextual calibration, CMSA-Net achieves state-of-the-art performance on major benchmarks. -->
@@ -141,11 +142,161 @@ Complete quantitative results on the **SUN-SEG** benchmark. **Bold** indicates t
 <small>*All scores are in percentage (%).*</small>
 
 
-## 📂 Download Prediction Results
-As the paper is currently under review, the source code is not yet publicly available. However, we provide the full prediction maps for comparison and evaluation purposes:
+## 📂 Download Resources
+We provide pretrained backbone weights, CMSA-Net model checkpoints, and predicted maps for reproducibility and comparison.
 
-* **PVT-V2-B2 Predictions:** [Download via OneDrive](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgBMgKhbcJIfQqzZ5sC_TgKZAYXvAMg1GHbRVQeA21RtrKM?e=y6GGej)
-* **Res2Net50 Predictions:** [Download via OneDrive](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgCAy5pL4kWkTqqk9qUYMNR4Ac02RQX920el46GxIgxL33c?e=cJEbRd)
+### OneDrive
+
+| Resource | PVT-V2-B2 | Res2Net50 |
+| :--- | :---: | :---: |
+| Backbone weights | [Download](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/tong_wang_mbzuai_ac_ae/IQBySrrVR9AkQbEliFvX3o1hAULkPopMKJDOLTXDtGkPCIk?e=PlvBWl) | [Download](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/tong_wang_mbzuai_ac_ae/IQAlF8vecjo7RaEiD52pxd1wAVYRZqjLMYSbDbg9ZX3DRDk?e=wqv401) |
+| Model checkpoints | [Download](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/tong_wang_mbzuai_ac_ae/IQDb6tP3BSHRRbIhEAwRUrlKAWmbdSgQ8eWd4hV8hsQqLI8?e=XXeHZa) | [Download](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/tong_wang_mbzuai_ac_ae/IQD412P9_IpHTaqIUraS47qjAWPq4dl-HDGvWAWCs8_zWM4?e=SY2eiL) |
+| Predicted maps | [Download](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgBMgKhbcJIfQqzZ5sC_TgKZAYXvAMg1GHbRVQeA21RtrKM?e=y6GGej) | [Download](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgCAy5pL4kWkTqqk9qUYMNR4Ac02RQX920el46GxIgxL33c?e=cJEbRd) |
+
+### Google Drive
+
+| Resource | PVT-V2-B2 | Res2Net50 |
+| :--- | :---: | :---: |
+| Backbone weights | [Download](https://drive.google.com/open?id=1A2QXHRuOUOW8UQiLb5-Gm3fTYX0SQ7xL&usp=drive_fs) | [Download](https://drive.google.com/open?id=1MGoaOE2tmJdVuv-O_5DtySX67ueK4kjq&usp=drive_fs) |
+| Model checkpoints | [Download](https://drive.google.com/open?id=1wQeWP9f-NheboyZaher9ALj5_g6X6GVv&usp=drive_fs) | [Download](https://drive.google.com/open?id=1jtt3OfCxmUzVooeQF_aKJUUxzJwkr-Vb&usp=drive_fs) |
+| Predicted maps | [Download](https://drive.google.com/open?id=1pS7zKX1nVsMm7jblAaewncEztZb39Obw&usp=drive_fs) | [Download](https://drive.google.com/open?id=1A38l862OefWyZV1pl2kwg9dP6xYmw7Ai&usp=drive_fs) |
+
+## 🛠️ Installation & Usage
+
+Following are the steps to set up the environment and use the project code.
+
+### 1. Prerequisites of Environment
+
+We recommend using **Anaconda** to manage the environment. The code has been tested with **Python 3.10**, **CUDA 11.7**, **PyTorch 1.13.0**, and **Torchvision 0.14.0**.
+
+1. Create and activate the Conda environment:
+
+```bash
+conda create -n CMSANet python=3.10
+conda activate CMSANet
+```
+
+2. Install PyTorch and Torchvision with CUDA 11.7:
+
+```bash
+pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+```
+
+The corresponding wheel files are:
+
+```text
+torch-1.13.0+cu117-cp310-cp310-linux_x86_64.whl
+torchvision-0.14.0+cu117-cp310-cp310-linux_x86_64.whl
+```
+
+3. Install other dependencies:
+
+```bash
+pip install numpy==1.26.0 \
+        timm==0.5.4 \
+        opencv-python==4.7.0.72 \
+        scipy \
+        tqdm \
+        scikit-learn \
+        tensorboard \
+        six \
+        Pillow
+```
+
+### 2. Prepare Data and Weights
+
+Download the SUN-SEG dataset and place it under the project data directory, for example:
+
+```text
+cmsa_project/data/SUN-SEG/
+```
+
+Download pretrained backbone weights and CMSA-Net checkpoints from the links above. By default, the scripts expect checkpoints under:
+
+```text
+cmsa_project/snapshot/
+```
+
+For the Res2Net50 backbone, you can also specify the local pretrained backbone path through the environment variable:
+
+```bash
+export CMSA_RES2NET50_PATH=/path/to/res2net50_v1b_26w_4s-3cf99910.pth
+```
+
+### 3. Training
+
+To train CMSA-Net, run:
+
+```bash
+python cmsa_project/scripts/my_train.py
+```
+
+Before training, please check `cmsa_project/scripts/config.py` and adjust dataset paths, GPU id, batch size, and output directory as needed.
+
+### 4. Testing
+
+To test CMSA-Net with a pretrained checkpoint, run:
+
+```bash
+python cmsa_project/scripts/my_test.py
+```
+
+By default, the testing script uses:
+
+```text
+cmsa_project/snapshot/pvtv2b2/ckpt_epoch_005.pth
+```
+
+You can edit `model_path` and `save_dir` in `cmsa_project/scripts/my_test.py` to evaluate different checkpoints or save predictions to a different folder.
+
+### 5. Evaluation
+
+To evaluate prediction maps, run:
+
+```bash
+python cmsa_project/eval/vps_evaluator.py
+```
+
+Please make sure the ground-truth path and prediction path are correctly configured before running evaluation.
+
+## 📰 Code
+
+The main structure of the project is as follows.
+
+```markdown
+- README.md
+- cmsa_project
+    - scripts
+        - config.py
+        - my_train.py
+        - my_test.py
+    - lib
+        - backbone
+            - CompressEncoder.py
+            - Decoder.py
+            - LightRFB.py
+            - Res2Net_v1b.py
+            - pvt_v2.py
+        - dataloader
+            - __init__.py
+            - dataloader.py
+            - preprocess.py
+            - statistics.pth
+        - model_arch
+            - cmsa_net.py
+            - misc_blocks.py
+        - utils
+            - __init__.py
+            - utils.py
+    - eval
+        - dice_score.py
+        - metrics.py
+        - vps_evaluator.py
+    - snapshot
+        - pvtv2b2
+        - r250
+```
+
 
 
 ---
