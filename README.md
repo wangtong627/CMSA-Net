@@ -167,7 +167,7 @@ Following are the steps to set up the environment and use the project code.
 
 ### 1. Prerequisites of Environment
 
-We recommend using **Anaconda** to manage the environment. The code has been tested with **Python 3.10**, **CUDA 11.7**, **PyTorch 1.13.0**, and **Torchvision 0.14.0**.
+We recommend using **Anaconda** to manage the environment. The code has been tested with **Python 3.10**, **CUDA 11.8**, **PyTorch 2.1.1**, and **Torchvision 0.16.1**.
 
 1. Create and activate the Conda environment:
 
@@ -176,17 +176,17 @@ conda create -n CMSANet python=3.10
 conda activate CMSANet
 ```
 
-2. Install PyTorch and Torchvision with CUDA 11.7:
+2. Install PyTorch and Torchvision with CUDA 11.8:
 
 ```bash
-pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+pip install torch==2.1.1+cu118 torchvision==0.16.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
 ```
 
 The corresponding wheel files are:
 
 ```text
-torch-1.13.0+cu117-cp310-cp310-linux_x86_64.whl
-torchvision-0.14.0+cu117-cp310-cp310-linux_x86_64.whl
+torch-2.1.1+cu118-cp310-cp310-linux_x86_64.whl
+torchvision-0.16.1+cu118-cp310-cp310-linux_x86_64.whl
 ```
 
 3. Install other dependencies:
@@ -215,12 +215,6 @@ Download pretrained backbone weights and CMSA-Net checkpoints from the links abo
 
 ```text
 cmsa_project/snapshot/
-```
-
-For the Res2Net50 backbone, you can also specify the local pretrained backbone path through the environment variable:
-
-```bash
-export CMSA_RES2NET50_PATH=/path/to/res2net50_v1b_26w_4s-3cf99910.pth
 ```
 
 ### 3. Training
