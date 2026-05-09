@@ -1,5 +1,5 @@
 <div align="center">
-<h1> 🩺 CMSA-Net </h1>
+<h1> 🩺 CMSA-Net (MICCAI 2026) </h1>
 <h3>Causal Multi-scale Aggregation with Adaptive Multi-source Reference for Video Polyp Segmentation</h3>
 <br>
 
