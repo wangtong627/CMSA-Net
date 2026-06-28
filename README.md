@@ -20,13 +20,11 @@ Tong Wang¹², Yaolei Qi¹, Siwen Wang², Imran Razzak², Guanyu Yang¹✉, Yuto
 [![Prediction Maps](https://img.shields.io/badge/Predictions-Res2Net50-orange)](#-download-resources)
 [![Poster](https://img.shields.io/badge/Poster-MICCAI_2026-red)](assets/miccai2026/CMSA-MICCAI2026-Poster.pdf)
 [![Slides](https://img.shields.io/badge/Slides-PDF-blue)](assets/miccai2026/CMSA-Net-ppt.pdf)
-[![Video](https://img.shields.io/badge/Video-English-green)](assets/miccai2026/CMSA-Net_MICCAI2026_video_english.mp4)
-[![Video](https://img.shields.io/badge/Video-Chinese-orange)](assets/miccai2026/CMSA-Net_MICCAI2026_video_chinese.mp4)
 
 </div>
 
 ## 📢 News
-- **[Jun, 2026]** Released the MICCAI 2026 poster, slides, and English/Chinese presentation videos.
+- **[Jun, 2026]** Released the MICCAI 2026 poster, slides, and presentation video.
 - **[May, 2026]** CMSA-Net has been accepted as a **MICCAI 2026 Early Accept** paper.
 - **[Feb, 2026]** Released prediction results for both **PVT-V2-B2** and **Res2Net50** backbones.
 - **[Feb, 2026]** CMSA-Net is available on arXiv.
