@@ -56,6 +56,10 @@ video {
   object-fit: contain;
 }
 
+.top-logo-strip img:first-child {
+  height: 105px;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -535,6 +539,10 @@ h3 {
 
   .top-logo-strip img {
     height: 70px;
+  }
+
+  .top-logo-strip img:first-child {
+    height: 88px;
   }
 
   .hero,
