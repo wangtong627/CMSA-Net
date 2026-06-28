@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CMSA-Net | MICCAI 2026</title>
+    <meta name="description" content="CMSA-Net: Causal Multi-scale Aggregation with Adaptive Multi-source Reference for Video Polyp Segmentation. MICCAI 2026 Early Accept.">
+    <meta property="og:title" content="CMSA-Net (MICCAI 2026)">
+    <meta property="og:description" content="A robust video polyp segmentation framework with causal multi-scale aggregation and adaptive multi-source reference selection.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/figures/cmsa_framework.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="CMSA-Net home">
+        <span class="brand-mark">C</span>
+        <span>CMSA-Net</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#abstract">Abstract</a>
+        <a href="#videos">Videos</a>
+        <a href="#method">Method</a>
+        <a href="#results">Results</a>
+        <a href="#resources">Resources</a>
+      </nav>
+      <a class="nav-button" href="https://github.com/wangtong627/CMSA-Net" target="_blank" rel="noopener">Code</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="venue">MICCAI 2026 Early Accept</p>
+          <h1>CMSA-Net</h1>
+          <p class="subtitle">Causal Multi-scale Aggregation with Adaptive Multi-source Reference for Video Polyp Segmentation</p>
+          <div class="authors" aria-label="Authors">
+            <span>Tong Wang<sup>1,2</sup></span>
+            <span>Yaolei Qi<sup>1</sup></span>
+            <span>Siwen Wang<sup>2</sup></span>
+            <span>Imran Razzak<sup>2</sup></span>
+            <span>Guanyu Yang<sup>1</sup></span>
+            <span>Yutong Xie<sup>2</sup></span>
+          </div>
+          <p class="affiliations"><sup>1</sup>Southeast University &nbsp;&nbsp; <sup>2</sup>Mohamed bin Zayed University of Artificial Intelligence</p>
+          <div class="action-row" aria-label="Project links">
+            <a class="button primary" href="https://arxiv.org/abs/2602.22821" target="_blank" rel="noopener">
+              <span class="icon">↗</span>
+              <span>Paper</span>
+            </a>
+            <a class="button" href="https://github.com/wangtong627/CMSA-Net" target="_blank" rel="noopener">
+              <span class="icon">⌘</span>
+              <span>Code</span>
+            </a>
+            <a class="button" href="assets/docs/CMSA-MICCAI2026-Poster.pdf" target="_blank" rel="noopener">
+              <span class="icon">▣</span>
+              <span>Poster</span>
+            </a>
+            <a class="button" href="assets/docs/CMSA-Net-ppt.pdf" target="_blank" rel="noopener">
+              <span class="icon">▤</span>
+              <span>Slides</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="CMSA-Net visual summary">
+          <div class="panel-caption">
+            <span>Adaptive reference selection</span>
+            <strong>Temporal guidance across colonoscopy video</strong>
+          </div>
+          <img src="assets/figures/main_prediction.png" alt="Qualitative video polyp segmentation comparison showing frames, ground truth, CMSA-Net predictions, and baselines.">
+        </div>
+      </section>
+
+      <nav class="section-links" aria-label="Page sections">
+        <a href="#abstract">Abstract</a>
+        <a href="#videos">Presentation videos</a>
+        <a href="#method">Framework</a>
+        <a href="#results">Visual results</a>
+        <a href="#resources">Downloads</a>
+        <a href="#citation">Citation</a>
+      </nav>
+
+      <section class="section summary-grid" aria-label="CMSA-Net highlights">
+        <article>
+          <span class="metric">CMA</span>
+          <h2>Causal multi-scale aggregation</h2>
+          <p>Aggregates semantic evidence from historical frames while preserving strict temporal order.</p>
+        </article>
+        <article>
+          <span class="metric">DMR</span>
+          <h2>Dynamic multi-source reference</h2>
+          <p>Selects informative references using semantic separability and prediction confidence.</p>
+        </article>
+        <article>
+          <span class="metric">VPS</span>
+          <h2>Video polyp segmentation</h2>
+          <p>Targets robust, real-time segmentation for colonoscopy videos with large appearance and scale shifts.</p>
+        </article>
+      </section>
+
+      <section class="section text-section" id="abstract">
+        <div class="section-head">
+          <p class="kicker">Overview</p>
+          <h2>Robust segmentation under weak semantics and unstable temporal context.</h2>
+        </div>
+        <div class="two-column">
+          <p>Video polyp segmentation is challenging because polyps often resemble surrounding mucosa, while motion blur and scale changes make temporal propagation unreliable. CMSA-Net addresses these issues by combining causal temporal modeling with adaptive reference selection.</p>
+          <p>The framework introduces a Causal Multi-scale Aggregation module to gather features from historical frames at multiple scales, and a Dynamic Multi-source Reference strategy to adaptively select reliable reference frames. On SUN-SEG, CMSA-Net achieves state-of-the-art performance while retaining practical efficiency for clinical video workflows.</p>
+        </div>
+      </section>
+
+      <section class="section" id="videos">
+        <div class="section-head centered">
+          <p class="kicker">Presentation</p>
+          <h2>English and Chinese video explanations</h2>
+          <p>Conference-style walkthroughs of the motivation, architecture, experiments, and key conclusions.</p>
+        </div>
+        <div class="video-grid">
+          <article class="video-card">
+            <div class="video-meta">
+              <span>English</span>
+              <strong>CMSA-Net MICCAI 2026 presentation</strong>
+            </div>
+            <video controls preload="metadata" src="assets/videos/CMSA-Net_MICCAI2026_video_english.mp4"></video>
+          </article>
+          <article class="video-card">
+            <div class="video-meta">
+              <span>中文</span>
+              <strong>CMSA-Net 中文讲解</strong>
+            </div>
+            <video controls preload="metadata" src="assets/videos/CMSA-Net_MICCAI2026_video_chinese.mp4"></video>
+          </article>
+        </div>
+      </section>
+
+      <section class="section figure-section" id="method">
+        <div class="section-head">
+          <p class="kicker">Method</p>
+          <h2>Causal temporal aggregation with adaptive reference memory.</h2>
+          <p>CMSA-Net uses temporal causality to avoid future-frame leakage and combines long-term, semantic, and local references for stable per-frame prediction.</p>
+        </div>
+        <figure class="image-frame">
+          <img src="assets/figures/cmsa_framework.png" alt="CMSA-Net framework diagram showing input colonoscopy video, adaptive multi-source reference, causal multi-scale aggregation, segmentation decoder, and current-frame prediction.">
+          <figcaption>Framework overview of CMSA-Net.</figcaption>
+        </figure>
+      </section>
+
+      <section class="section figure-section" id="results">
+        <div class="section-head">
+          <p class="kicker">Visual results</p>
+          <h2>Cleaner masks across hard video frames.</h2>
+          <p>Qualitative comparisons show that CMSA-Net maintains more complete polyp masks than baseline predictions under ambiguity, blur, and appearance variation.</p>
+        </div>
+        <figure class="image-frame">
+          <img src="assets/figures/main_prediction.png" alt="Qualitative CMSA-Net results compared with ground truth and baselines across multiple colonoscopy frames.">
+          <figcaption>Qualitative comparison on video polyp segmentation samples.</figcaption>
+        </figure>
+      </section>
+
+      <section class="section resources" id="resources">
+        <div class="section-head centered">
+          <p class="kicker">Resources</p>
+          <h2>Paper, code, assets, checkpoints, and predictions</h2>
+        </div>
+        <div class="resource-cards">
+          <a class="resource-card" href="https://arxiv.org/abs/2602.22821" target="_blank" rel="noopener">
+            <span class="resource-icon">↗</span>
+            <strong>arXiv paper</strong>
+            <small>arXiv:2602.22821</small>
+          </a>
+          <a class="resource-card" href="https://github.com/wangtong627/CMSA-Net" target="_blank" rel="noopener">
+            <span class="resource-icon">⌘</span>
+            <strong>Code repository</strong>
+            <small>Training, testing, and evaluation scripts</small>
+          </a>
+          <a class="resource-card" href="assets/docs/CMSA-MICCAI2026-Poster.pdf" target="_blank" rel="noopener">
+            <span class="resource-icon">▣</span>
+            <strong>Poster</strong>
+            <small>MICCAI 2026 poster PDF</small>
+          </a>
+          <a class="resource-card" href="assets/docs/CMSA-Net-ppt.pdf" target="_blank" rel="noopener">
+            <span class="resource-icon">▤</span>
+            <strong>Slides</strong>
+            <small>Presentation slides PDF</small>
+          </a>
+        </div>
+
+        <div class="download-table" role="table" aria-label="Model and prediction resources">
+          <div class="table-row table-head" role="row">
+            <div role="columnheader">Resource</div>
+            <div role="columnheader">PVT-V2-B2</div>
+            <div role="columnheader">Res2Net50</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">Backbone weights</div>
+            <div role="cell"><a href="https://drive.google.com/open?id=1A2QXHRuOUOW8UQiLb5-Gm3fTYX0SQ7xL&usp=drive_fs" target="_blank" rel="noopener">Google Drive</a> · <a href="https://mbzuaiac-my.sharepoint.com/:u:/g/personal/tong_wang_mbzuai_ac_ae/IQBySrrVR9AkQbEliFvX3o1hAULkPopMKJDOLTXDtGkPCIk?e=PlvBWl" target="_blank" rel="noopener">OneDrive</a></div>
+            <div role="cell"><a href="https://drive.google.com/open?id=1MGoaOE2tmJdVuv-O_5DtySX67ueK4kjq&usp=drive_fs" target="_blank" rel="noopener">Google Drive</a> · <a href="https://mbzuaiac-my.sharepoint.com/:u:/g/personal/tong_wang_mbzuai_ac_ae/IQAlF8vecjo7RaEiD52pxd1wAVYRZqjLMYSbDbg9ZX3DRDk?e=wqv401" target="_blank" rel="noopener">OneDrive</a></div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">Model checkpoints</div>
+            <div role="cell"><a href="https://drive.google.com/open?id=1wQeWP9f-NheboyZaher9ALj5_g6X6GVv&usp=drive_fs" target="_blank" rel="noopener">Google Drive</a> · <a href="https://mbzuaiac-my.sharepoint.com/:u:/g/personal/tong_wang_mbzuai_ac_ae/IQDb6tP3BSHRRbIhEAwRUrlKAWmbdSgQ8eWd4hV8hsQqLI8?e=XXeHZa" target="_blank" rel="noopener">OneDrive</a></div>
+            <div role="cell"><a href="https://drive.google.com/open?id=1jtt3OfCxmUzVooeQF_aKJUUxzJwkr-Vb&usp=drive_fs" target="_blank" rel="noopener">Google Drive</a> · <a href="https://mbzuaiac-my.sharepoint.com/:u:/g/personal/tong_wang_mbzuai_ac_ae/IQD412P9_IpHTaqIUraS47qjAWPq4dl-HDGvWAWCs8_zWM4?e=SY2eiL" target="_blank" rel="noopener">OneDrive</a></div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">Predicted maps</div>
+            <div role="cell"><a href="https://drive.google.com/open?id=1pS7zKX1nVsMm7jblAaewncEztZb39Obw&usp=drive_fs" target="_blank" rel="noopener">Google Drive</a> · <a href="https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgBMgKhbcJIfQqzZ5sC_TgKZAYXvAMg1GHbRVQeA21RtrKM?e=y6GGej" target="_blank" rel="noopener">OneDrive</a></div>
+            <div role="cell"><a href="https://drive.google.com/open?id=1A38l862OefWyZV1pl2kwg9dP6xYmw7Ai&usp=drive_fs" target="_blank" rel="noopener">Google Drive</a> · <a href="https://mbzuaiac-my.sharepoint.com/:f:/g/personal/tong_wang_mbzuai_ac_ae/IgCAy5pL4kWkTqqk9qUYMNR4Ac02RQX920el46GxIgxL33c?e=cJEbRd" target="_blank" rel="noopener">OneDrive</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section citation" id="citation">
+        <div class="section-head">
+          <p class="kicker">Citation</p>
+          <h2>Cite CMSA-Net</h2>
+        </div>
+        <pre><code>@article{wang2026cmsanet,
+  title={CMSA-Net: Causal Multi-scale Aggregation with Adaptive Multi-source Reference for Video Polyp Segmentation},
+  author={Tong Wang and Yaolei Qi and Siwen Wang and Imran Razzak and Guanyu Yang and Yutong Xie},
+  journal={arXiv preprint arXiv:2602.22821},
+  year={2026}
+}</code></pre>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>CMSA-Net (MICCAI 2026)</span>
+      <a href="https://github.com/wangtong627/CMSA-Net" target="_blank" rel="noopener">GitHub repository</a>
+    </footer>
+  </body>
+</html>
