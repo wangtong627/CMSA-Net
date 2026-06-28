@@ -460,9 +460,10 @@ h3 {
 
 .document-preview-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
-  margin-bottom: 24px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+  max-width: 980px;
+  margin: 0 auto 24px;
 }
 
 .document-preview {
