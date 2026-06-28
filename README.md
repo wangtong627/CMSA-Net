@@ -33,14 +33,7 @@ Tong Wang¹², Yaolei Qi¹, Siwen Wang², Imran Razzak², Guanyu Yang¹✉, Yuto
 
 ## 🎬 Presentation Video
 
-<p align="center">
-  <video src="assets/miccai2026/CMSA-Net_MICCAI2026_video_english.mp4" controls width="100%"></video>
-</p>
-
-<p align="center">
-  <a href="assets/miccai2026/CMSA-Net_MICCAI2026_video_english.mp4">English Presentation Video</a> |
-  <a href="assets/miccai2026/CMSA-Net_MICCAI2026_video_chinese.mp4">Chinese Presentation Video</a>
-</p>
+https://github.com/user-attachments/assets/b04a01b2-a496-43ad-84e1-d4ab5ec6213b
 
 <!-- ## 📌 Abstract
 Video Polyp Segmentation (VPS) is a challenging task due to the varying size of polyps, motion blur, and the similarity between polyps and surrounding tissues. We propose **CMSA-Net**, a Contextual Multi-Scale Aggregation Network designed to capture robust spatio-temporal representations. By leveraging multi-scale feature fusion and contextual calibration, CMSA-Net achieves state-of-the-art performance on major benchmarks. -->
