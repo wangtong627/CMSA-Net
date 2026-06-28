@@ -18,13 +18,29 @@ Tong Wang¹², Yaolei Qi¹, Siwen Wang², Imran Razzak², Guanyu Yang¹✉, Yuto
 [![Checkpoint](https://img.shields.io/badge/Checkpoint-Res2Net50-green)](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/tong_wang_mbzuai_ac_ae/IQD412P9_IpHTaqIUraS47qjAWPq4dl-HDGvWAWCs8_zWM4?e=SY2eiL)
 [![Prediction Maps](https://img.shields.io/badge/Predictions-PVT--V2--B2-purple)](#-download-resources)
 [![Prediction Maps](https://img.shields.io/badge/Predictions-Res2Net50-orange)](#-download-resources)
+[![Poster](https://img.shields.io/badge/Poster-MICCAI_2026-red)](assets/miccai2026/CMSA-MICCAI2026-Poster.pdf)
+[![Slides](https://img.shields.io/badge/Slides-PDF-blue)](assets/miccai2026/CMSA-Net-ppt.pdf)
+[![Video](https://img.shields.io/badge/Video-English-green)](assets/miccai2026/CMSA-Net_MICCAI2026_video_english.mp4)
+[![Video](https://img.shields.io/badge/Video-Chinese-orange)](assets/miccai2026/CMSA-Net_MICCAI2026_video_chinese.mp4)
 
 </div>
 
 ## 📢 News
+- **[Jun, 2026]** Released the MICCAI 2026 poster, slides, and English/Chinese presentation videos.
 - **[May, 2026]** CMSA-Net has been accepted as a **MICCAI 2026 Early Accept** paper.
 - **[Feb, 2026]** Released prediction results for both **PVT-V2-B2** and **Res2Net50** backbones.
 - **[Feb, 2026]** CMSA-Net is available on arXiv.
+
+## 🎬 Presentation Video
+
+<p align="center">
+  <video src="assets/miccai2026/CMSA-Net_MICCAI2026_video_english.mp4" controls width="100%"></video>
+</p>
+
+<p align="center">
+  <a href="assets/miccai2026/CMSA-Net_MICCAI2026_video_english.mp4">English Presentation Video</a> |
+  <a href="assets/miccai2026/CMSA-Net_MICCAI2026_video_chinese.mp4">Chinese Presentation Video</a>
+</p>
 
 <!-- ## 📌 Abstract
 Video Polyp Segmentation (VPS) is a challenging task due to the varying size of polyps, motion blur, and the similarity between polyps and surrounding tissues. We propose **CMSA-Net**, a Contextual Multi-Scale Aggregation Network designed to capture robust spatio-temporal representations. By leveraging multi-scale feature fusion and contextual calibration, CMSA-Net achieves state-of-the-art performance on major benchmarks. -->
